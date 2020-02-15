@@ -1,0 +1,27 @@
+@import './resume-board.css';
+@import './game.css';
+@import './board.css';
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.modal {
+    background-color: #00000099;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition-delay: 2s;
+    transition: ease-in;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal--show {
+    display: block;
+    opacity: 1;
+}
